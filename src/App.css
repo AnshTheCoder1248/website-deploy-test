@@ -1,0 +1,452 @@
+#root {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(29, 55, 100, 1) 38%,
+    rgba(20, 121, 152, 1) 94%
+  );
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navlinks {
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+.Nav-Home {
+  color: #f0f8ff;
+  text-decoration: none;
+  transition: text-decoration;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.Nav-Home:hover {
+  text-decoration: underline;
+}
+
+.Nav-About {
+  color: #f0f8ff;
+  text-decoration: none;
+  transition: text-decoration;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.Nav-About:hover {
+  text-decoration: underline;
+}
+
+.Nav-Portfolio {
+  color: #f0f8ff;
+  text-decoration: none;
+  transition: text-decoration;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.Nav-Portfolio:hover {
+  text-decoration: underline;
+}
+
+.Nav-Contact {
+  color: #f0f8ff;
+  text-decoration: none;
+  transition: text-decoration;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.Nav-Contact:hover {
+  text-decoration: underline;
+}
+
+.rectangle {
+  width: 1221px;
+  height: 380px;
+  background: linear-gradient(
+    90deg,
+    rgba(12, 44, 96, 1) 10%,
+    rgba(33, 189, 155, 1) 85%
+  );
+  margin-left: 140px;
+  margin-top: 150px;
+  position: relative;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 50px;
+  left: 153px;
+  font-weight: normal;
+}
+
+.faangM {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  left: 550px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.Meta {
+  box-shadow: 0 0 0;
+}
+
+.Meta:hover {
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Amazon {
+  box-shadow: 0 0 0;
+}
+
+.Amazon:hover {
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Netflix {
+  box-shadow: 0 0 0;
+}
+
+.Netflix:hover {
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Google {
+  box-shadow: 0 0 0;
+}
+
+.Google:hover {
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Apple {
+  box-shadow: 0 0 0;
+}
+
+.Apple:hover {
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Microsoft {
+  box-shadow: 0 0 0;
+  height: 85px;
+}
+
+.Microsoft:hover {
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+  margin-left: 100px;
+  margin-top: 100px;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: inherit;
+  height: 300px;
+}
+
+.section1title {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: -300px;
+  font-weight: bold;
+  position: relative;
+  color: white;
+}
+
+.Bio-Name {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-left: 650px;
+  color: white;
+}
+
+.Bio-Age {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-left: 650px;
+  color: white;
+}
+
+.Bio-Grade {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-left: 650px;
+  color: white;
+}
+
+.section2title {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-weight: bold;
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  margin-left: 400px;
+  margin-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+
+.section3title {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-weight: bold;
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+.Skills-List {
+  margin: 0;
+  list-style-type: none;
+  padding-inline: 0;
+}
+
+.Skills-List li {
+  box-shadow: 0 0.5rem 1rem -0.25rem white;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.Skills-List img {
+  width: 50px;
+  height: 20px;
+}
+
+.scroller {
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  max-width: 600px;
+  padding-block: 1rem;
+}
+
+.InnerScroller {
+  display: flex;
+  gap: 1rem;
+}
+
+.scroller .InnerScroller {
+  flex-wrap: nowrap;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(-100%);
+  }
+}
+
+.Social-Github {
+  position: absolute;
+  top: 30%;
+  left: 95%;
+  width: 40px;
+  height: 40px;
+}
+
+.Social-Github:hover {
+  box-shadow: 0px 1px 5px white;
+}
+
+.Social-Figma {
+  position: absolute;
+  top: 65%;
+  left: 95%;
+  width: 40px;
+  height: 40px;
+}
+
+.Social-Figma:hover {
+  box-shadow: 0px 1px 5px white;
+}
+
+.Contact-Page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  font-weight: normal;
+  position: relative;
+}
+
+.Contact-Name {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-left: -20%;
+  border-radius: 10px;
+}
+.Contact-Email {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: -20%;
+  border-radius: 10px;
+}
+.Contact-Message {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
+.Submitbtn {
+  position: absolute;
+  top: 450px;
+  left: 470px;
+  width: 20%;
+  height: 10%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(7, 61, 78, 1) 8%,
+    rgba(29, 55, 100, 1) 80%
+  );
+}
+
+.Submitbtn:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project:hover {
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.project {
+  margin-top: 10px;
+  margin-left: 18px;
+  border: black solid;
+  border-radius: 10px;
+}
+
+.ProjectContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.projectBtn {
+  border: solid 1px black;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.projectBtn:hover {
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.JS {
+  width: 50px;
+  height: 20px;
+}
+.HTML {
+  width: 50px;
+  height: 20px;
+}
+.CSS {
+  width: 50px;
+  height: 20px;
+}
+
+.node {
+  width: 50px;
+  height: 20px;
+}
+
+.node:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.react {
+  width: 50px;
+  height: 20px;
+}
+
+.react:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.css {
+  width: 50px;
+  height: 20px;
+}
+
+.css:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.vite {
+  width: 50px;
+  height: 20px;
+}
+.vite:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.html {
+  width: 50px;
+  height: 20px;
+}
+
+.html:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.javascript {
+  width: 50px;
+  height: 20px;
+}
+
+.javascript:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  color: black;
+}
